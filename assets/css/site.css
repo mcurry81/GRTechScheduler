@@ -10,6 +10,8 @@
  	background-color:#f5f5dc;
  	height: auto;
  	width: auto;
+ 	position: relative;
+ 	z-index: 0;
 
  }
 
@@ -27,9 +29,9 @@ h1 {
  	display: inline-block;
  	width: 60%;
  	float: left;
- 	margin-left: 250px;
+ 	margin-left: 200px;
  	margin-right: 50px;
-
+*/
  }
 #title {
 	padding-top: 5%;
@@ -60,9 +62,9 @@ th {
  }
 
 /*navbar*/
-#navbar {
+/*#navbar {
 	position: fixed;
-	/*float: right; */
+	float: right; 
 	background-color: #45ADA8;
 	border: solid 3px black;
 	border-radius: 5px;
@@ -77,6 +79,40 @@ th {
 #navsubmit {
 	margin-left: 50%;
 }
+*/
+/*jquery tutorial
+
+.slide-out-div {
+	padding: 20px;
+	width: 250px;
+	background: #ccc;
+	border: 10px solid #29216d;
+
+
+}
+*/
+
+.sidebar {
+	position: relative;
+	width: 350px;
+	padding: 30px;
+	background: #284b68;
+	z-index: 0;
+	border: solid black 3px;
+	margin-right: 5px;
+	float: right;
+	color: #f5f5dc;
+	display: inline-block;
+
+}
+#submit {
+	color: black;
+}
+.form-control {
+	background-color: #f5f5dc;
+}
+
+
 
 label {
 	font-family: Georgia;

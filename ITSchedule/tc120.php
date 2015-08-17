@@ -5,7 +5,7 @@
 	    			<th colspan="6" sytle="color:#5BB75B"><center>TC 120</center></th>
 	    		</tr>
 	    		<tr>
-	    			<th>Time</th>
+			    			<th>Time</th>
 	    			<th>Monday</th>
 	    			<th>Tuesday </th>
 	    			<th>Wednesday</th>
