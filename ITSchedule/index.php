@@ -63,12 +63,12 @@
 	
 	<!--title div-->
 	<div class="row" id="title">
-	    <center><span><img style="max-width:230px; max-height:100px; margin-top: -7px; padding-top: 5px;" alt="Green River" src="../assets/img/grtech.jpg"><h1 style="color:#5BB75B; font-family: 'Droid Serif', Serif';"><strong>Scheduler</strong></h1></span></center>
+	    <center><span><img alt="Green River" src="../assets/img/grtech.jpg"></span></center>
 	</div>
 
 	<div id="byroom">
 		<div class = "row">
-			<div class = "btn-group btn-group-justified">
+			<div class = "btn-group btn-group-justified" id="pagechoice">
 				<!--Button to view by location...this will change to be a drop down of classes-->
 				<div class="btn-group">
 					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">View By Location<span class="caret"></span></button>
@@ -87,7 +87,7 @@
 							<li><a href="ken.php">Ken Hang</a></li>
 							<li><a href="krish.php">Krish Mahadevan</a></li>
 							<li><a href="simone.php">Simone Jarzabek</a></li>
-							<li><a href="tina.php"></a>Tina Ostrander</li>
+							<li><a href="tina.php">Tina Ostrander</a></li>
 							<li><a href="tim.php">Tim Mason</a></li>
 							<li><a href="spunky.php">Angela "Spunky" Robinson</a></li>
 						</ul>

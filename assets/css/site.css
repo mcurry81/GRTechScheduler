@@ -1,3 +1,30 @@
+ /*header*/
+ #title {
+	padding: 2%;
+	background-color: #284b68;
+	margin-bottom: 2%;
+	border-bottom: solid 10px;
+	border-color: #787753;
+
+	 
+} 
+#title img {
+	display: inline-block;
+	border: solid 10px;
+	border-color: #787753;
+	background-color: black;
+	max-width:130px; 
+	max-height:100px; 
+	margin-top: -7px; 
+	padding-top: 5px
+}
+#title h1 {
+	display: inline-block;
+	margin-left: 10px;
+	color:#787753;
+	font-family: 'Droid Serif', 'Serif';
+}
+
  /*body sytle*/
  body {
  	
@@ -16,26 +43,28 @@
  }
 
 
-
 h1 {
 	font-size: 50px;
 }
+/*container for schedule*/
  #byroom {
  	
  	padding: 5%;
- 	border: solid 3px;
- 	border-color: black;
+ 	border: solid 5px;
+ 	border-color: #787753;
  	background-color: #284B68;
  	display: inline-block;
  	width: 60%;
  	float: left;
  	margin-left: 200px;
  	margin-right: 50px;
-*/
+
  }
-#title {
-	padding-top: 5%;
-} 
+ #pagechoice button {
+ 	color: #284b68;
+ 	background-color: #f5f5dc;
+ }
+
 
 /*table sytle*/
  td, tr {
@@ -56,49 +85,19 @@ th {
 }
 
  table {
- 	border-color: black;
  	border: solid 6px;
  	background-color: white;
  }
 
 /*navbar*/
-/*#navbar {
-	position: fixed;
-	float: right; 
-	background-color: #45ADA8;
-	border: solid 3px black;
-	border-radius: 5px;
-	font-family: Georgia;
-	display: inline-block;
-	
-	padding: 20px;
-	width: 500px;
-
-
-}
-#navsubmit {
-	margin-left: 50%;
-}
-*/
-/*jquery tutorial
-
-.slide-out-div {
-	padding: 20px;
-	width: 250px;
-	background: #ccc;
-	border: 10px solid #29216d;
-
-
-}
-*/
-
 .sidebar {
 	position: relative;
 	width: 350px;
 	padding: 30px;
 	background: #284b68;
 	z-index: 0;
-	border: solid black 3px;
+	border: solid  5px;
+	border-color: #787753;
 	margin-right: 5px;
 	float: right;
 	color: #f5f5dc;
@@ -106,10 +105,14 @@ th {
 
 }
 #submit {
-	color: black;
-}
-.form-control {
+	color: #284b68;
 	background-color: #f5f5dc;
+	border: solid 5px;
+	border-color: #787753;
+}
+.form-control{
+	background-color: #f5f5dc;
+	color:#284b68;
 }
 
 
